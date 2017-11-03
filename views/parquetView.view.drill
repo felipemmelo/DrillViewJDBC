@@ -1,0 +1,14 @@
+{
+  "name" : "/tmp/workspace/DrillJDBCExample/views/parquetView",
+  "sql" : "SELECT `page`, `count_views`\nFROM `dfs`.`/tmp/workspace/DrillJDBCExample/data/part-00000-bbe23bf3-a109-4df8-a486-58f37a577388-c000.snappy.parquet`",
+  "fields" : [ {
+    "name" : "page",
+    "type" : "ANY",
+    "isNullable" : true
+  }, {
+    "name" : "count_views",
+    "type" : "ANY",
+    "isNullable" : true
+  } ],
+  "workspaceSchemaPath" : [ "dfs" ]
+}
